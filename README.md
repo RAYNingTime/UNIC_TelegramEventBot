@@ -6,4 +6,5 @@ The UNIC EventBot is built using the python-telegram-bot library and is designed
 
 This repository contains all the necessary code to set up and deploy the UNIC EventBot, including the bot's source code, installation instructions, and documentation. The code is open source and can be modified and extended to suit your needs.
 
-## Resource: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API
+## Resources
+- [python-telegram-bot Github Wiki](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API)
