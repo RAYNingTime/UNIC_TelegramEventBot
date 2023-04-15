@@ -5,3 +5,5 @@ This repository contains the code for the UNIC EventBot, a Telegram bot that sen
 The UNIC EventBot is built using the python-telegram-bot library and is designed to run on a server using a cron job or similar scheduling tool. The bot uses the UNIC Events API to retrieve information about upcoming events and sends notifications to the designated chat group at specified intervals.
 
 This repository contains all the necessary code to set up and deploy the UNIC EventBot, including the bot's source code, installation instructions, and documentation. The code is open source and can be modified and extended to suit your needs.
+
+## Resource: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API
