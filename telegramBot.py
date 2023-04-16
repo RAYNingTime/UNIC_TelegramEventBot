@@ -11,6 +11,10 @@ logging.basicConfig(
 # Define a function to handle the /start command
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi! I am UNIC EventBot.")
+    
+# Define a function to handle the /help command
+async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="This is help menu!")
 
 
 if __name__ == '__main__':
@@ -20,6 +24,10 @@ if __name__ == '__main__':
     # Add a handler for the /start command
     start_handler = CommandHandler('start', start)
     application.add_handler(start_handler)
+    
+    # Add a handler for the /help command
+    help_handler = CommandHandler('help', help)
+    application.add_handler(help_handler)
 
     # Start the bot and begin polling for updates
     application.run_polling()
