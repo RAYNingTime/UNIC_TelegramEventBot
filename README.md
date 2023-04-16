@@ -8,7 +8,7 @@ This repository contains all the necessary code to set up and deploy the UNIC Ev
 
 **To activate code you are required to download the library with version 20.x**
 
-` pip install python-telegram-bot `
+` pip install python-telegram-bot==20.2 `
 
 ## Resources
 - [python-telegram-bot Github Wiki](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Introduction-to-the-API)
